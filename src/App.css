@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+.game{
+  max-width: calc(3 *100px);
+  margin:auto;
+  text-align: center;
+  padding: 20px;
+}
+.status{
+  display: flex; 
+  justify-content: space-between;
+margin-bottom: 20px;
+}
+.board{
+ display: grid;
+  grid-template-columns: repeat(3,1fr);
+  justify-content: center;
+}
+.btn{
+  padding: 20px;
+  border: 1px solid black;
+  background-color: white;
+}
+.btn:hover{
+  background-color: azure;
+}
+.reset{
+  padding: 5px 10px;
+}
